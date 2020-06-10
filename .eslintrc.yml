@@ -4,15 +4,18 @@ env:
   commonjs: true
   jest: true
 
-extends: ['plugin:react/recommended']
+plugins: ['react', 'prettier']
+
+extends: [ 'plugin:prettier/recommended', 'prettier/react', 'prettier/standard']
+
+rules: 
+  prettier/prettier: error
 
 parserOptions:
   ecmaFeatures:
     jsx: true
   ecmaVersion: 6
   sourceType: module
-
-plugins: ['react']
 
 settings:
   react:
