@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <header
+    className="header"
+  >
+    <div
+      className="top-menu"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <button>
+          <span>
+            Главная
+          </span>
+        </button>
+      </a>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        <button>
+          <span>
+            Профиль
+          </span>
+        </button>
+      </a>
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        <button>
+          <span>
+            Логин
+          </span>
+        </button>
+      </a>
+    </div>
+  </header>
+  <div
+    className="content"
+  >
+    <h2>
+      Главная страница
+    </h2>
+  </div>
+</div>
+`;
