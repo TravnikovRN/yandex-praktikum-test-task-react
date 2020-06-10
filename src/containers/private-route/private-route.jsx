@@ -29,3 +29,10 @@ const mapStateToProps = state => {
 }
 
 export default connect(mapStateToProps)(PrivateRoute)
+
+/* 
+  Надо исправить:
+  Описать входные параметры
+  'component' is missing in props validation
+  'location' is missing in props validation
+*/

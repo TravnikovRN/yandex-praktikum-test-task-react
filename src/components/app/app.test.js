@@ -29,3 +29,8 @@ it('renders without crashing', () => {
 
   expect(tree).toMatchSnapshot();
 })
+
+/* 
+  Можно лучше: 
+  Исправить code style ошибки (отступы и лишние точки с запятой)
+*/

@@ -10,3 +10,9 @@ const NotFound = ({ data }) => {
 }
 
 export default NotFound
+
+/* 
+  Надо исправить:
+  Описать входные параметры
+  'data' is missing in props validation
+*/

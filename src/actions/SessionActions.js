@@ -25,3 +25,8 @@ export function logIn(params, next) {
     }
   }
 }
+
+/* 
+  Можно лучше: 
+  Исправить code style ошибки (отступы и лишние точки с запятой)
+*/

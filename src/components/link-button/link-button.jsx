@@ -16,3 +16,8 @@ LinkButton.propTypes = {
 }
 
 export default LinkButton
+
+/* 
+  Можно лучше: 
+  Исправить code style ошибки (пробелы до и после параметров)
+*/
