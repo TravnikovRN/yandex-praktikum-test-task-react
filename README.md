@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Реализовано простое приложение, без подключения к БД.
 
 ## Задание:
@@ -24,3 +25,7 @@
 
 Если данные валидны: редирект на `/profile`
 
+=======
+# yandex-praktikum-test-task-react
+Test task for Yandex.Praktikum
+>>>>>>> 4ae293a9d86b2f084c0a028f72c829dc9c4f60f0
