@@ -6,7 +6,7 @@ env:
 
 plugins: ['react', 'prettier']
 
-extends: [ 'plugin:prettier/recommended', 'prettier/react', 'prettier/standard']
+extends: [ 'plugin:prettier/recommended', "plugin:react/recommended", 'prettier/react', 'prettier/standard']
 
 rules: 
   prettier/prettier: error
@@ -14,7 +14,7 @@ rules:
 parserOptions:
   ecmaFeatures:
     jsx: true
-  ecmaVersion: 6
+  ecmaVersion: 2018
   sourceType: module
 
 settings:
