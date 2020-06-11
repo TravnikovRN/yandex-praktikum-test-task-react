@@ -6,6 +6,8 @@ import { LOG_IN, LOG_OUT, LOG_IN_FAILURE } from '../actions/SessionActions'
    вызывая его поля без авторизации - произойдет ошибка (null не имеет поле name).
    Лучше заведите дополнительный флаг isAuth, а у user опишите все свойства по умолчанию,
    например user: { name: '' }
+   Можно не описывать полную структуру в initialState, а прописать у всех компонентов
+   defaultProps (https://reactjs.org/docs/react-component.html#defaultprops), но это более трудозатратный путь 
 */
 const initialState = {
   user: null,

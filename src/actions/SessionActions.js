@@ -20,6 +20,7 @@ export function logIn(params, next) {
         payload: {
           errorMessage: 'Имя пользователя или пароль некорректны',
         },
+        // Что это за error, который нигде не описан и не используется?!
         error: true,
       })
     }
