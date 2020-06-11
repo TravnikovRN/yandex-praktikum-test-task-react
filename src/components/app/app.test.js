@@ -26,7 +26,6 @@ it('renders without crashing', () => {
           </Provider>
       )
       .toJSON();
-
   expect(tree).toMatchSnapshot();
 })
 

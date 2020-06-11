@@ -13,9 +13,7 @@ exports[`renders without crashing 1`] = `
         onClick={[Function]}
       >
         <button>
-          <span>
-            Главная
-          </span>
+          Главная
         </button>
       </a>
       <a
@@ -23,9 +21,7 @@ exports[`renders without crashing 1`] = `
         onClick={[Function]}
       >
         <button>
-          <span>
-            Профиль
-          </span>
+          Профиль
         </button>
       </a>
       <a
@@ -33,9 +29,15 @@ exports[`renders without crashing 1`] = `
         onClick={[Function]}
       >
         <button>
-          <span>
-            Логин
-          </span>
+          Логин
+        </button>
+      </a>
+      <a
+        href="/kvazavr"
+        onClick={[Function]}
+      >
+        <button>
+          Не найдено
         </button>
       </a>
     </div>

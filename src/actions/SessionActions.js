@@ -27,6 +27,12 @@ export function logIn(params, next) {
 }
 
 /* 
+  Нужно переделать:
+  Исходя из основных принципов Redux (https://redux.js.org/introduction/three-principles)
+  Action - должны быть чистыми функциями, а в данной реализации есть вызов сайд эффекта next().
+  Такие события должны происходить в специально отведенных для этого участках кода - 
+  middleware (https://redux.js.org/advanced/middleware).
+
   Можно лучше: 
   Исправить code style ошибки (отступы и лишние точки с запятой)
 */

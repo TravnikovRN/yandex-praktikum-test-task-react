@@ -6,14 +6,17 @@ env:
 
 plugins: ['react', 'prettier']
 
+# Чтобы все используемые библиотеки работали корректно - их необходимо включить в конфигурацию
+# Pro tip: на сегодняшний день самой популярной конфигурацией для eslint является eslint-config-airbnb
 extends: [ 'plugin:prettier/recommended', "plugin:react/recommended", 'prettier/react', 'prettier/standard']
 
 rules: 
   prettier/prettier: error
 
+# Необходимо использовать последнюю версию ecmaVersion, чтобы все правила корректно работали
 parserOptions:
   ecmaFeatures:
-    jsx: true
+    jsx: true    
   ecmaVersion: 2018
   sourceType: module
 
