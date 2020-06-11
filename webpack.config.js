@@ -12,6 +12,7 @@ module.exports = {
         contentBase: path.join(__dirname, `public`),
         open: false,
         port: 3000,
+        historyApiFallback: true,
     },
     module: {
         rules: [
@@ -26,3 +27,9 @@ module.exports = {
     },
     devtool: `source-map`,
 };
+
+/* 
+  Нужно исправить: 
+  Для корректной работы роутинга, после обновления страницы необходимоб добавить флаг 
+  historyApiFallback: true,
+*/
