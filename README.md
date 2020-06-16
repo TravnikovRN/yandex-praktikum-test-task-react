@@ -1,5 +1,6 @@
 # yandex-praktikum-test-task-react
-Test task for Yandex.Praktikum
+Test task for Yandex.Praktikum for 'code reviewer' position.
+The main purpose is make code-review for person whom learning web development.
 
 ## Задание:
 Роуты:
